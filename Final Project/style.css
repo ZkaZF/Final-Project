@@ -1,0 +1,111 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+/* start navbar */
+nav.navbar {
+  background-color: #333333;
+}
+
+ul.navbar-nav li.nav-item a {
+  color: #ffac42;
+}
+ul.navbar-nav li.nav-item a:hover {
+  color: #ffdeb4;
+}
+
+/* a span.sebelas-rpl {
+  color: #ffac42;
+  line-height: 50px;
+  margin-left: 100px;
+} */
+
+/* end navbar */
+
+/* section 1 */
+section#satu {
+  position: relative;
+  z-index: 1;
+  height: 120vh;
+  background-image: url(assets/webite.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section#satu .container h1 {
+  margin-top: 100px;
+  color: #ffac42;
+  font-weight: 800;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* end section 1 */
+
+/* start section 2 */
+section#dua {
+  height: 170vh;
+  background-color: #1a1a1a;
+  background-image: linear-gradient(to left, rgba(51, 51, 51, 1), rgba(52, 52, 52, 1), rgba(57, 57, 57, 1), rgba(64, 64, 64, 1), rgba(70, 70, 70, 1), rgba(92, 92, 92, 1));
+}
+
+#dua h1 {
+  color: #ffac42;
+}
+
+section#dua h3 {
+  color: #ffac42;
+}
+section#dua a {
+  color: #ffac42;
+  text-decoration: none;
+  font-size: larger;
+}
+section#dua a:hover {
+  color: #ffdeb4;
+}
+section#dua h3.bio-kiri {
+  margin-left: 120px;
+}
+
+@media (max-width: 991.98px) {
+  section#dua h3 {
+    text-align: center;
+  }
+  section#dua h3.bio-kiri {
+    margin-left: 35px;
+  }
+}
+
+/* end section 2 */
+
+#wave {
+  background-image: linear-gradient(to left, rgba(51, 51, 51, 1), rgba(52, 52, 52, 1), rgba(57, 57, 57, 1), rgba(64, 64, 64, 1), rgba(70, 70, 70, 1), rgba(92, 92, 92, 1));
+}
+
+/* start section 3 */
+section#tiga {
+  height: 140vh;
+  background-color: #ffac42;
+}
+
+section#tiga .card {
+  background-image: linear-gradient(to left, rgba(51, 51, 51, 1), rgba(52, 52, 52, 1), rgba(57, 57, 57, 1), rgba(64, 64, 64, 1), rgba(70, 70, 70, 1), rgba(92, 92, 92, 1));
+}
+section#tiga .card h5,
+section#tiga .card p {
+  color: #ffac42;
+}
+#tiga h1 {
+  color: #000000;
+}
+
+/* end section 3 */
+
+footer {
+  color: #ffac42;
+  height: 30px;
+  background-image: linear-gradient(to left, rgba(51, 51, 51, 1), rgba(52, 52, 52, 1), rgba(57, 57, 57, 1), rgba(64, 64, 64, 1), rgba(70, 70, 70, 1), rgba(92, 92, 92, 1));
+}
